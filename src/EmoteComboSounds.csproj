@@ -1,5 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
+        <ApplicationIcon>icon.ico</ApplicationIcon>
+        <Version>1.0.0</Version>
         <OutputType>Exe</OutputType>
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
@@ -14,6 +16,4 @@
         <PackageReference Include="TwitchLib.Client" Version="3.3.0" />
         <PackageReference Include="NAudio" Version="2.2.1" />
     </ItemGroup>
-    <Version>1.0.0</Version>
-    <ApplicationIcon>icon.ico</ApplicationIcon>
 </Project>
